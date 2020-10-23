@@ -4756,19 +4756,18 @@ webidl-conversions@^6.1.0:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
 
-webidl2@^23.11.0:
-  version "23.11.0"
-  resolved "https://registry.yarnpkg.com/webidl2/-/webidl2-23.11.0.tgz#3c3d492877c6b90171de4174e16b1e2b87f99267"
-  integrity sha512-JLWqpTKJZ9xMwool+DFLuDA+BPu44FRJunsmZeiPH2y2xRZwN8TGa7yryA5L2lTha+0C2PwLeROsWE2SDePjFw==
+webidl2@^23.12.1:
+  version "23.13.0"
+  resolved "https://registry.yarnpkg.com/webidl2/-/webidl2-23.13.0.tgz#1f3766e52429a129d407867dd43ad2c9e6fa9040"
+  integrity sha512-YfBvnpujLVLZ1zKP/aZO1XOtFhMUMFSnXjp88Q4iTMC/i1MUiv7YWq45SN8DrPHCjmnXhzjBouG0tJKg/+o0lg==
 
-webidl2js@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/webidl2js/-/webidl2js-16.0.0.tgz#21f304313e7665e24427f648ec46ac2346445f08"
-  integrity sha512-cgboeEe6297x9QSRp8CXKLKjADWHDIyTxFYs9ky63Ztui8tMOJxGpEpvYmHDikBkCHNwzeRBWSF40Dc0uCZMEg==
+"webidl2js@https://github.com/efreibe/webidl2js.git":
+  version "16.2.0"
+  resolved "https://github.com/efreibe/webidl2js.git#70310051d52423d64cc28278af563130cd474215"
   dependencies:
     prettier "^2.0.4"
     webidl-conversions "^6.1.0"
-    webidl2 "^23.11.0"
+    webidl2 "^23.12.1"
 
 whatwg-encoding@^1.0.5:
   version "1.0.5"
